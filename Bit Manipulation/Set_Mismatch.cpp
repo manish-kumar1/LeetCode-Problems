@@ -36,7 +36,7 @@ vector<int> setMismatch(vector<int> &nums){
     }
 
     int duplicate;
-    
+
     for(int i = 0; i < n; i++){
         if(mp[nums[i]] == 2){
             duplicate = nums[i];
@@ -44,6 +44,7 @@ vector<int> setMismatch(vector<int> &nums){
         }
     }
     int missingNumber;
+    
     int totalSum = accumulate(nums.begin(), nums.end(), 0);
     int sum = n * (n+1) / 2;
     totalSum = totalSum - duplicate;
