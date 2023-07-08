@@ -17,7 +17,6 @@ Example 2:
 Input: nums = [1,1]
 Output: [1,2]
  
-
 Constraints:
 
 2 <= nums.length <= 104
@@ -31,7 +30,7 @@ vector<int> setMismatch(vector<int> &nums){
 
     int n = nums.size();
     unordered_map<int, int> mp;
-    
+
     for(int i = 0; i < n; i++){
         mp[nums[i]]++;
     }
