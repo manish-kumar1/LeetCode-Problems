@@ -34,6 +34,7 @@ vector<int> setMismatch(vector<int> &nums){
     for(int i = 0; i < n; i++){
         mp[nums[i]]++;
     }
+    
     int duplicate;
     for(int i = 0; i < n; i++){
         if(mp[nums[i]] == 2){
