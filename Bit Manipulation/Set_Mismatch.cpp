@@ -46,8 +46,8 @@ vector<int> setMismatch(vector<int> &nums){
     int missingNumber;
 
     int totalSum = accumulate(nums.begin(), nums.end(), 0);
-    
-    int sum = n * (n+1) / 2;
+
+    int sum = n * (n+1) / 2; // sum of n natural number
     totalSum = totalSum - duplicate;
     missingNumber = sum - totalSum;
     
