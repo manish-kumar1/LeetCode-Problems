@@ -61,12 +61,13 @@ int main(){
 
     int temp = 0;
     vector<int> nums;
-    
+
     for(int i = 0; i < n; i++){
         cin >> temp;
         nums.push_back(temp);
     }
     vector<int> ans = setMismatch(nums);
+    
     for(int i = 0; i < ans.size(); i++){
         cout << ans[i] << " ";
     }
