@@ -49,6 +49,7 @@ vector<int> setMismatch(vector<int> &nums){
     int totalSum = accumulate(nums.begin(), nums.end(), 0);
 
     int sum = n * (n+1) / 2; // sum of n natural number
+    
     totalSum = totalSum - duplicate;
     missingNumber = sum - totalSum;
     
@@ -71,6 +72,6 @@ int main(){
     for(int i = 0; i < ans.size(); i++){
         cout << ans[i] << " ";
     }
-    
+
     return 0;
 }
