@@ -11,6 +11,7 @@ Explanation:
 0 --> 0
 1 --> 1
 2 --> 10
+
 Example 2:
 
 Input: n = 5
@@ -38,7 +39,7 @@ Can you do it without using any built-in function (i.e., like __builtin_popcount
 using namespace std;
 
 vector<int> countBits(int n){
-    
+
     vector<int> ans(n+1, 0);
     for(int i = 1; i <= n; i++){
         ans[i] = ans[i >> 1] + (i & 1);
