@@ -7,6 +7,7 @@ Example 1:
 
 Input: n = 2
 Output: [0,1,1]
+
 Explanation:
 0 --> 0
 1 --> 1
@@ -54,7 +55,7 @@ int main(){
     cin >> n;
 
     vector<int> ans = countBits(n);
-    
+
     for(int i = 0; i < ans.size(); i++){
         cout << ans[i] << " ";
     }
