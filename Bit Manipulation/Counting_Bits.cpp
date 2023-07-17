@@ -38,6 +38,7 @@ Can you do it without using any built-in function (i.e., like __builtin_popcount
 
 #include<iostream>
 #include<vector>
+
 using namespace std;
 
 vector<int> countBits(int n){
@@ -60,7 +61,7 @@ int main(){
     cout << "Output : ";
 
     for(int i = 0; i < ans.size(); i++){
-        
+
         cout << ans[i] << " ";
     }
 
