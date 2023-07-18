@@ -28,6 +28,7 @@ s and t consist of lowercase English letters.
 
 #include<iostream>
 using namespace std;
+
 char findTheDifference(string s, string t){
     char ans = '\0';
     int i = 0;
