@@ -30,9 +30,10 @@ s and t consist of lowercase English letters.
 using namespace std;
 
 char findTheDifference(string s, string t){
-    
+
     char ans = '\0';
     int i = 0;
+    
     while(i < s.size()){
         ans = ans ^ s[i];
         i++;
