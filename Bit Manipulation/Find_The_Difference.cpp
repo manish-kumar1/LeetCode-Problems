@@ -24,6 +24,7 @@ Constraints:
 0 <= s.length <= 1000
 t.length == s.length + 1
 s and t consist of lowercase English letters.
+
 */
 
 #include<iostream>
