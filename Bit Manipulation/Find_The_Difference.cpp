@@ -33,7 +33,7 @@ char findTheDifference(string s, string t){
 
     char ans = '\0';
     int i = 0;
-    
+
     while(i < s.size()){
         ans = ans ^ s[i];
         i++;
@@ -46,6 +46,7 @@ char findTheDifference(string s, string t){
     return ans;
 }
 int main(){
+    
     string s, t;
     cin >> s >> t;
 
