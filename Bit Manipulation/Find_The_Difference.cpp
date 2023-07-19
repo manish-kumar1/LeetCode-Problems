@@ -21,6 +21,7 @@ Input: s = "", t = "y"
 Output: "y"
  
 Constraints:
+
 0 <= s.length <= 1000
 t.length == s.length + 1
 s and t consist of lowercase English letters.
@@ -46,7 +47,7 @@ char findTheDifference(string s, string t){
     return ans;
 }
 int main(){
-    
+
     string s, t;
     cin >> s >> t;
 
