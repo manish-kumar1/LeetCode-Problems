@@ -54,12 +54,13 @@ int main(){
 
     int v = 0;
     vector<int> pref;
-    
+
     for(int i = 0; i < n; i++){
         cin >> v;
         pref.push_back(v);
     }
     vector<int> ans = findArrayXor(pref);
+    
     for(int i = 0; i < ans.size(); i++){
         cout << ans[i] << " ";
     }
