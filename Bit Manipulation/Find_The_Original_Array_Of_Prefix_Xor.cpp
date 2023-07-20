@@ -12,6 +12,7 @@ Example 1:
 
 Input: pref = [5,2,0,3,1]
 Output: [5,7,2,3,2]
+
 Explanation: From the array [5,7,2,3,2] we have the following:
 - pref[0] = 5.
 - pref[1] = 5 ^ 7 = 2.
