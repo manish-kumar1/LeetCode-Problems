@@ -36,6 +36,7 @@ Constraints:
 using namespace std;
 
 vector<int> findArrayXor(vector<int> &pref){
+    
     vector<int> ans;
     ans.push_back(pref[0]);
     int temp = 0;
