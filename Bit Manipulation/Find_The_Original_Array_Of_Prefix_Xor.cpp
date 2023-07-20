@@ -48,12 +48,13 @@ vector<int> findArrayXor(vector<int> &pref){
     return ans;
 }
 int main(){
-    
+
     int n;
     cin >> n;
 
     int v = 0;
     vector<int> pref;
+    
     for(int i = 0; i < n; i++){
         cin >> v;
         pref.push_back(v);
