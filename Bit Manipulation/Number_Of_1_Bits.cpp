@@ -34,6 +34,7 @@ The input must be a binary string of length 32.
 using namespace std;
 
 int hammingWeight(uint32_t n){
+    
     int count = 0;
     while(n != 0){
         if(n&1){
