@@ -20,6 +20,7 @@ Output: 8
 Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
  
 Constraints:
+
 n == nums.length
 1 <= n <= 104
 0 <= nums[i] <= n
