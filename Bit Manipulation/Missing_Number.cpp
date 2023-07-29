@@ -52,8 +52,9 @@ int main(){
         cin >> v;
         nums.push_back(v);
     }
-    
+
     int ans = missingNumber(nums);
     cout << ans;
+    
     return 0;
 }
