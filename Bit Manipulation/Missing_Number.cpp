@@ -41,6 +41,7 @@ int missingNumber(vector<int> &nums){
     return sum;
 }
 int main(){
+    
     int n;
     cin >> n;
 
