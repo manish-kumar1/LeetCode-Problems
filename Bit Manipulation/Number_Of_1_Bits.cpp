@@ -19,6 +19,7 @@ Example 2:
 
 Input: n = 00000000000000000000000010000000
 Output: 1
+
 Explanation: The input binary string 00000000000000000000000010000000 has a total of one '1' bit.
 
 Example 3:
