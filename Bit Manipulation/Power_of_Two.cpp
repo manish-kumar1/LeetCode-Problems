@@ -9,6 +9,7 @@ Example 1:
 
 Input: n = 1
 Output: true
+
 Explanation: 20 = 1
 
 Example 2:
