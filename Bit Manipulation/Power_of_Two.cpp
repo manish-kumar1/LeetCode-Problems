@@ -41,7 +41,7 @@ int isPowerOfTwo(int n){
         return true;
     }
     while(n != 1){
-        
+
         if(n&1){
             return false;
         }
@@ -55,6 +55,7 @@ int main(){
     cin >> n;
 
     int ans = isPowerOfTwo(n);
+    
     cout << ans;
 
     return 0;
