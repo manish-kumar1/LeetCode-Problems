@@ -32,7 +32,7 @@ Constraints:
 using namespace std;
 
 int isPowerOfTwo(int n){
-    
+
     if(n == 0){
         return false;
     }
@@ -48,6 +48,7 @@ int isPowerOfTwo(int n){
     return true;
 }
 int main(){
+    
     int n;
     cin >> n;
 
