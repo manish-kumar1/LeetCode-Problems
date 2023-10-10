@@ -1,5 +1,6 @@
 /*
 Q. Find the Pivot Integer
+
 Given a positive integer n, find the pivot integer x such that:
 
 The sum of all elements between 1 and x inclusively equals the 
