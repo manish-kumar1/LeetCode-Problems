@@ -65,7 +65,7 @@ int main(){
         nums.push_back(v);
     }
     int ans = PivotIndex(nums);
-    cout << ans;
+    cout << ans << endl;
 
     return 0;
 }
