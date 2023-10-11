@@ -3,10 +3,10 @@ Q. Find Pivot Index
 
 Given an array of integers nums, calculate the pivot index of this array.
 
-The pivot index is the index where the sum of all the numbers strictly to the 
+The pivot index is the index where the sum of all the numbers strictly to the
 left of the index is equal to the sum of all the numbers strictly to the index's right.
 
-If the index is on the left edge of the array, then the left sum is 0 because 
+If the index is on the left edge of the array, then the left sum is 0 because
 there are no elements to the left. This also applies to the right edge of the array.
 
 Return the leftmost pivot index. If no such index exists, return -1.
@@ -32,35 +32,40 @@ Explanation:
 The pivot index is 0.
 Left sum = 0 (no elements to the left of index 0)
 Right sum = nums[1] + nums[2] = 1 + -1 = 0
- 
+
 Constraints:
 1 <= nums.length <= 104
 -1000 <= nums[i] <= 1000
 */
-#include<bits/stdc++.h>
-#include<iostream>
-#include<vector>
+#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int PivotIndex(vector<int> &nums){
+int PivotIndex(vector<int> &nums)
+{
     int totalSum = accumulate(nums.begin(), nums.end(), 0);
     int leftSum = 0;
-    for(int i = 0; i < nums.size(); i++){
+    for (int i = 0; i < nums.size(); i++)
+    {
         totalSum = totalSum - nums[i];
-        if(totalSum == leftSum){
+        if (totalSum == leftSum)
+        {
             return i;
         }
         leftSum = leftSum + nums[i];
     }
     return -1;
 }
-int main(){
+int main()
+{
     int n;
     cin >> n;
 
     int v = 0;
     vector<int> nums;
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++)
+    {
         cin >> v;
         nums.push_back(v);
     }
