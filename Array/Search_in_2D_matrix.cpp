@@ -36,7 +36,7 @@ bool matrixSearch(vector<vector<int>> &matrix, int target){
     int i = 0;
     int j = n - 1;
     while(i < m && j >= 0){
-        int mid = i + (j - i) / 2;
+        // int mid = i + (j - i) / 2;
         if(matrix[i][j] == target){
             return true;
         }
