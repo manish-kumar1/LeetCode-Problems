@@ -40,7 +40,7 @@ Explanation: Only products 1 and 3 are both low fat and recyclable.
 */
 
 CREATE TABLE Products(
-	product_id INT NOT NULL AUTO_INCREMENT,
+    product_id INT NOT NULL AUTO_INCREMENT,
     low_fats enum('Y', 'N'),
     recyclable enum('Y', 'N'),
     primary Key (product_id)
