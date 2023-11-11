@@ -11,8 +11,8 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> v;
         nums.push_back(v);
-        // Hello noman
-        
+        // lg rha hai provlem solbe ho gya  
+
     }
 
 
