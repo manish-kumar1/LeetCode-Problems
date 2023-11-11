@@ -84,7 +84,7 @@ VALUES
 (2, 0, 'END', 4.512),
 (2, 1, 'START', 2.500),
 (2, 1, 'END', 5.000);
-
+-- this is something that i want to change
 SELECT *FROM MACHINE;
 
 -- ACCORDING TO QUESTION
