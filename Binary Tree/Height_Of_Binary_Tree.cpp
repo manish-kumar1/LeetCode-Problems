@@ -32,7 +32,6 @@ Constraints:
 1 <= Data of a node <= 109
 */
 #include<bits/stdc++.h>
-#include<iostream>
 using namespace std;
 
 struct Node{
@@ -57,6 +56,9 @@ Node* buildTree(string str){
 
     Node *root = new Node(stoi(ip[0]));
 
+    queue<Node*> queue;
+    queue.push(root);
+
     int i = 1;
     while(!queue.empty() && i < ip.size()){
         Node* currNode = queue.front();
@@ -80,6 +82,16 @@ Node* buildTree(string str){
         i++;
     }
     return root;
+}
+int height(struct Node* node){
+    if(node == NULL){
+        return 0;
+    }
+    int left = height(node -> left);
+    int right = height(node -> right);
+    int ans = max(left, right) + 1;
+
+    return ans;
 }
 int main(){
 
