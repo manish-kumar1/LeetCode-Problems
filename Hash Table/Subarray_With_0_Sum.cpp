@@ -52,7 +52,7 @@ bool subArraysExists(vector<int> &nums){
         else{
             mp[a]++;
         }
-    }
+    } 
     return false;
 }
 int main(){
