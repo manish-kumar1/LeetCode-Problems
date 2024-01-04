@@ -41,6 +41,10 @@ n == bank[i].length
 bank[i][j] is either '0' or '1'.
 */
 
+//Approach (Simple iterate and count)
+//T.C : O(m*n) - Total number of characters in all string
+//S.C : O(1)
+
 #include<bits/stdc++.h>
 using namespace std;
 
