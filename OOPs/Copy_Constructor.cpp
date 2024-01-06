@@ -36,7 +36,7 @@ class A{
 int main(){
 
     A a1(20);    // calling the parameterized constructor
-    A a2 = a1;   // calling the copy constructor
+    A a2(a1);   // calling the copy constructor
 
     cout << a1.x << endl;   // 20
     cout << a2.x;         // 20
