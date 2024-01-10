@@ -11,3 +11,5 @@ int main(){
 
     return 0;
 }
+
+// In this example, cos() function finds the cosine of an angle when the value is negative but it remains the same as cos(-x) =cos(x).
