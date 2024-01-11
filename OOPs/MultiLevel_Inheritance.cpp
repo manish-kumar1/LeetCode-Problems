@@ -19,7 +19,7 @@ class BabyDog : public Dog{
         cout << "Weeping...." << endl;
     }
 };
-int main(){g
+int main(){
     BabyDog d;
     d.eat();
     d.bark();
