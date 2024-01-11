@@ -18,7 +18,6 @@ class B : private A{
         cout << "Multiplication of a and b is : " << result << endl;
     }
 };
-
 int main(){
     B b;
     b.display();
