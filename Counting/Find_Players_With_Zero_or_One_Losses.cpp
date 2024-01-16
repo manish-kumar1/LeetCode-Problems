@@ -33,7 +33,6 @@ Players 1, 2, 5, and 6 have not lost any matches.
 Players 3 and 4 each have lost two matches.
 Thus, answer[0] = [1,2,5,6] and answer[1] = [].
  
-
 Constraints:
 
 1 <= matches.length <= 105
