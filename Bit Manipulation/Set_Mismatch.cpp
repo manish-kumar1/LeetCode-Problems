@@ -46,6 +46,7 @@ vector<int> setMismatch(vector<int> &nums){
     int sum = n * (n+1) / 2;
     totalSum = totalSum - duplicate;
     missingNumber = sum - totalSum;
+    
     return {duplicate, missingNumber};
 }
 int main(){
