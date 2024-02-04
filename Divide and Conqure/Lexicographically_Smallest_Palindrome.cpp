@@ -13,6 +13,7 @@ Return the resulting palindrome string.
 Example 1:
 
 Input: s = "egcfe"
+
 Output: "efcfe"
 Explanation: The minimum number of operations to make "egcfe" a palindrome is 1, and the lexicographically smallest palindrome string we can get by modifying one character is "efcfe", by changing 'g'.
 
@@ -43,7 +44,7 @@ string makeSmallestPalindrome(string s){
     int j = s.size() - 1;
 
     while(i < j){
-        
+
         if(s[i] == s[j]){
             i++;
             j--;
