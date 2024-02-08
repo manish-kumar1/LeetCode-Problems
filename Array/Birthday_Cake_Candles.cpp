@@ -67,10 +67,12 @@ int main(){
 
     int temp = 0;
     vector<int> candles;
+
     for(int i = 0; i < n; i++){
         cin >> temp;
         candles.push_back(temp);
     }
+    
     int ans = birthdayCakeCandles(candles);
     cout << endl;
     cout << "Output : " << ans << endl;
