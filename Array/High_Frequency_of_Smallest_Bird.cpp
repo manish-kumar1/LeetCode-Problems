@@ -101,6 +101,7 @@ int main(){
 
     int temp = 0;
     vector<int> birds;
+    
     for(int i = 0; i < n; i++){
         cin >> temp;
         birds.push_back(temp);
