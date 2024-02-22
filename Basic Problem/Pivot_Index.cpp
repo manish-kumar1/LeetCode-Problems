@@ -4,6 +4,7 @@
 using namespace std;
 
 int pivotIndex(vector<int> &nums){
+    
     int rightSum = accumulate(nums.begin(), nums.end(), 0);
     
     int leftSum = 0;
