@@ -2,6 +2,7 @@
 using namespace std;
 
 int solve(int arr[], int n){
+    
     int mul = 1;
     for(int i = 0; i < n; i++){
         mul = mul * arr[i];
