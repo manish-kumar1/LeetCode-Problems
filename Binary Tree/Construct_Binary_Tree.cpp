@@ -98,20 +98,20 @@ int main(){
     levelOrderTraversal(root);
     // 1 3 7 -1 -1 11 -1 -1 5 17 -1 -1 -1
 
-    // inorder traversal
-    cout << "inoder traversal" << endl;
-    inorder(root);
+    // // inorder traversal
+    // cout << "inoder traversal" << endl;
+    // inorder(root);
     
-    cout << endl;
-    // preorder traversal
-    cout << "preorder traversal" << endl;
-    preorder(root);
+    // cout << endl;
+    // // preorder traversal
+    // cout << "preorder traversal" << endl;
+    // preorder(root);
 
-    cout << endl;
-    // postorder traversal
-    cout << "postorder traversal" << endl;
-    postorder(root);
+    // cout << endl;
+    // // postorder traversal
+    // cout << "postorder traversal" << endl;
+    // postorder(root);
 
-
+    // 1 10 4 3 -1 7 9 12 8 6 -1 -1 2 -1 -1
     return 0;
 }

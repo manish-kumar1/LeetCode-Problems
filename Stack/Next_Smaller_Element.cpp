@@ -72,6 +72,7 @@ Sample Output 2:
 #include<stack>
 #include<vector>
 using namespace std;
+
 vector<int> nextSmallerElement(vector<int> &arr){
     int n = arr.size();
     stack<int> s;
