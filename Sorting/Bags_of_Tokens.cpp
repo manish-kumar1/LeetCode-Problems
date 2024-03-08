@@ -42,7 +42,6 @@ Play token1 (200) face-up, reducing power to 300 and increasing score to 1.
 Play token2 (300) face-up, reducing power to 0 and increasing score to 2.
 The maximum score achievable is 2.
 
-
 Constraints:
 
 0 <= tokens.length <= 1000
