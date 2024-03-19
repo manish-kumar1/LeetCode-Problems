@@ -30,8 +30,10 @@ Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(n)
 
 Constraints:
+
 1 ≤ n ≤ 105
 0 ≤ Data of a node ≤ 109
+
 */
 
 #include <bits/stdc++.h>
