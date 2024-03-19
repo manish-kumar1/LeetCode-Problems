@@ -60,23 +60,6 @@ Node* newNode(int val)
     return temp;
 }
 
-// } Driver Code Ends
-/* A binary tree Node
-
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
-    
-    Node(int x){
-        data = x;
-        left = right = NULL;
-    }
-};
- */
-
-
 class Solution
 {
     public:
