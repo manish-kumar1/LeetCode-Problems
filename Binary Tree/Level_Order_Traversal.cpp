@@ -90,11 +90,6 @@ class Solution
     }
 };
 
-//{ Driver Code Starts.
-
-/* Helper function to test mirror(). Given a binary
-   search tree, print out its data elements in
-   increasing sorted order.*/
 void inOrder(struct Node* node)
 {
   if (node == NULL)
