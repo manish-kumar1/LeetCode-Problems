@@ -17,7 +17,7 @@ Output: 2
 Explanation: We will use boxes with capacities 4 and 5.
 It is possible to distribute the apples as the total capacity is greater than or equal to the total number of apples.
 
-Example 2:
+Example 2: 
 
 Input: apple = [5,5,5], capacity = [2,4,2,7]
 Output: 4
