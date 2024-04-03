@@ -13,7 +13,6 @@ int main(){
     
     int n;
     cin >> n;
-    
     fun(n);
 
     return 0;
