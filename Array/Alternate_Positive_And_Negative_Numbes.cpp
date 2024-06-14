@@ -61,7 +61,7 @@ void Alternate(int arr[], int n){
             positive.push(arr[i]);
         }
         else
-        {
+        {    
             negative.push(arr[i]);
         }
     }

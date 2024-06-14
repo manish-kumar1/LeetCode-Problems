@@ -33,7 +33,7 @@ Example 3:
 Input: tokens = [100,200,300,400], power = 200
 
 Output: 2
-
+ 
 Explanation: Play the tokens in this order to get a score of 2:
 
 Play token0 (100) face-up, reducing power to 100 and increasing score to 1.
