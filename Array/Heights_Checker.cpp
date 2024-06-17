@@ -1,4 +1,3 @@
-
 /*
 Q. Heights Checker
 
