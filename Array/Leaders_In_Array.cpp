@@ -43,6 +43,9 @@ Constraints:
 using namespace std;
 vector<int> leaders(vector<int> &nums){
 
+
+    // cout << &nums[0] << endl;
+    // cout << &nums[1] << endl;
     vector<int> ans;
     int leader = nums[nums.size() - 1];
     ans.push_back(leader);
